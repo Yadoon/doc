@@ -14,8 +14,7 @@
 缺点：
 需要编写和维护脚本。
 对于大型项目，脚本可能变得复杂。
-- 
-方案 2：使用 JMeter 的 CSV Data Set Config
+- 方案 2：使用 JMeter 的 CSV Data Set Config
 优点：
 不需要编写额外的脚本。
 直接在 JMeter 中配置，简单易用。
@@ -23,8 +22,7 @@
 缺点：
 参数化较为静态，不支持复杂的动态参数。
 需要在 JMX 文件中手动添加 CSV Data Set Config 组件。
-- 
-方案 3：使用 JMeter 插件（如 JMeter Plugins Manager）
+- 方案 3：使用 JMeter 插件（如 JMeter Plugins Manager）
 优点：
 提供丰富的插件，可以轻松实现参数化。
 功能强大，支持多种高级特性。
@@ -32,8 +30,7 @@
 缺点：
 需要安装额外的插件。
 学习曲线较陡峭。
-- 
-方案 4：使用 Jenkins Pipeline
+- 方案 4：使用 Jenkins Pipeline
 优点：
 集成 CI/CD 流水线，自动化程度高。
 可以在 Jenkins Pipeline 中动态生成 JMX 文件。
@@ -41,8 +38,7 @@
 缺点：
 需要 Jenkins 环境。
 需要编写 Jenkins Pipeline 脚本。
-- 
-方案 5：使用 Ansible Playbooks
+- 方案 5：使用 Ansible Playbooks
 优点：
 自动化部署和配置管理。
 可以在 Ansible Playbooks 中动态生成 JMX 文件。
@@ -50,8 +46,7 @@
 缺点：
 需要 Ansible 环境。
 需要编写 Ansible Playbooks。
-- 
-方案 6：使用daemon服务
+- 方案 6：使用daemon服务
 优点：
 高扩展,提供稳定的内外交互接口
 支持多种参数化方式。
@@ -73,7 +68,7 @@
 
 推荐方案
 
-当前需要支持分布式的压测,选择使用JMeter 插件和daemon服务结合的方案6。
+当前需要支持分布式的压测,并集成相关的运维操作,所以选择使用JMeter 插件和daemon服务结合的方案6。
 
 
 # 3.0 [功能点](https://pixso.cn/app/product/hd6wPLavXUoRTJAYMvD4yw?showQuickFrame=true&page-id=0%3A1 邀请您加入 Pixso 原型文件「原型文件」)
