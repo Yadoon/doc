@@ -123,18 +123,19 @@
 - 测试计划可能包含多个线程组,以列表的形式保存全部线程组参数[{}]
 - 单个线程组参数：
 
-| 字段          | 字段类型   | 是否必填 | 说明              |
-| ----------- | ------ | ---- | --------------- |
-| num_threads | int    | 是    | 线程数             |
-| ramp_time   | int    | 否    | 预热时间,单位秒(s)     |
-| duration    | int    | 否    | 压测时间,单位秒(s)     |
-| rps         | float  | 否    | 每个线程的每秒并发数      |
-| loops       | int    | 否    | 循环次数            |
-| domain      | string | 是    | 受压域名            |
-| port        | int    | 否    | 受压端口            |
-| timeout     | int    | 是    | 请求超时时间,单位毫秒(ms) |
-| pod_num     | int    | 是    | 压测机器总数          |
-| pod_id      | int    | 是    | pod序号           |
+| 字段            | 字段类型   | 是否必填 | 说明              |
+| ------------- | ------ | ---- | --------------- |
+| num_threads   | int    | 是    | 线程数             |
+| ramp_time     | int    | 否    | 预热时间,单位秒(s)     |
+| duration      | int    | 否    | 压测时间,单位秒(s)     |
+| rps           | float  | 否    | 每个线程的每秒并发数      |
+| loops         | int    | 否    | 循环次数            |
+| domain        | string | 是    | 受压域名            |
+| port          | int    | 否    | 受压端口            |
+| timeout       | int    | 是    | 请求超时时间,单位毫秒(ms) |
+| pod_num       | int    | 是    | 压测机器总数          |
+| pod_id        | int    | 是    | pod序号           |
+| consecutively | bool   | 是    | 是否顺序执行http场景    |
 
 
 - 运行类:TestService
@@ -143,9 +144,11 @@
 1. shell执行测试计划
 2. 结束测试计划,包含调用jmeter原生的结束脚本和强制kill两种方式
 
-| 字段        | 字段类型   | 是否必填 | 说明          |
-| --------- | ------ | ---- | ----------- |
-| jmx_path  | string | 是    | 测试文件的路径     |
+| 字段        | 字段类型   | 是否必填 | 说明      |
+| --------- | ------ | ---- | ------- |
+| jmx_path  | string | 是    | 测试文件的路径 |
+| log_on    | bool   | 是    | 是否开启日志  |
+| log_level | string | 否    | 日志等级    |
 - 数据类: jmeter_plugin
 - 主要功能:
 
