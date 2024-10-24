@@ -71,7 +71,7 @@
 当前需要支持分布式的压测,并集成相关的运维操作,所以选择使用JMeter 插件和daemon服务结合的方案6。
 
 
-# 3.0 [功能点](https://pixso.cn/app/product/hd6wPLavXUoRTJAYMvD4yw?showQuickFrame=true&page-id=0%3A1 邀请您加入 Pixso 原型文件「原型文件」)
+# 3.0 [功能点](https://pixso.cn/app/product/hd6wPLavXUoRTJAYMvD4yw?showQuickFrame=true&page-id=0%3A1)
 
 ![[工程/压测/jmeter压测.assets/jmeter详细设计.pdf]]
 
@@ -98,7 +98,7 @@
 
 # 4.0 详细设计
 
-## [时序设计](https://pixso.cn/app/product/bnjv6b4w4CGEqrLIwQnwtA?showQuickFrame=true&page-id=0%3A1 邀请您加入 Pixso 原型文件「jmeter压测用户时序」)
+## [时序设计](https://pixso.cn/app/product/bnjv6b4w4CGEqrLIwQnwtA?showQuickFrame=true&page-id=0%3A1)
 
 ![[工程/压测/jmeter压测.assets/jmeter压测用户时序.pdf]]
 
@@ -120,7 +120,7 @@
 1. 读取用户提交的jmx文件,根据线程数和预热时间等参数修改后再覆盖jmx文件;
 2. 通过总的pod数和当前pod号,取余分割csv并覆盖原csv文件;
 
-- 测试计划可能包含多个线程组,以列表的形式保存全部线程组参数
+- 测试计划可能包含多个线程组,以列表的形式保存全部线程组参数[{}]
 - 单个线程组参数：
 
 | 字段          | 字段类型   | 是否必填 | 说明              |
