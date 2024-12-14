@@ -119,6 +119,7 @@
 
 1. 读取用户提交的jmx文件,根据线程数和预热时间等参数修改后再覆盖jmx文件;
 2. 通过总的pod数和当前pod号,取余分割csv并覆盖原csv文件;
+3. jmeter的插件作用优先级:线程组内的标签只影响,当前线程组,线程组外的标签影响全局测试计划;
 
 - 测试计划可能包含多个线程组,以列表的形式保存全部线程组参数[{}]
 - 单个线程组参数：
@@ -277,3 +278,5 @@ https://blog.itpub.net/7728585/viewspace-2142060/
 https://cloud.tencent.com/developer/article/1478728
 
 https://blog.csdn.net/zlisten1/article/details/129992255
+
+https://blog.csdn.net/qq_45138120/article/details/130566188
