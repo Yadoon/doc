@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "37ddf235465a2a97",
+    "type": "split",
+    "children": [
+      {
+        "id": "07aea3a684083d3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc156f9795129d0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工程/python/任务通知.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f1658e48d85b227d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d9e3f6ff62a7d1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab57afeacf7a9abf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "95e6de7cb0288307",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ee2ba6cdcb07e5f8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "7787cd4a05b176ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "86518c0853991bbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9742438687fccd8f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "工程/python/任务通知.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "206e70f2f2cc46fd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "工程/python/任务通知.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "44ac803e82cf3555",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4af19cc1579bd25d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "工程/python/任务通知.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "cc156f9795129d0a",
+  "lastOpenFiles": [
+    "工程/python/Checklist.md",
+    "工程/python/任务通知.md",
+    "工程/数据库/mysql flask sqlalchemy.md",
+    "工程/压测/jmeter压测动态参数集成.md",
+    "工程/压测/k8s版本技术方案.md",
+    "meta/jmeter压测动态参数集成.pdf",
+    "工程/go/协同编辑方案.md",
+    "工程/go/多人协同编辑.md",
+    "工程/go/Golang高效跳坑.pdf",
+    "工程/go/Golang高效跳坑.md",
+    "工程/go/Jmeter分布式压测.md",
+    "工程/压测/jmeter压测.assets/jmeter压测用户时序.pdf",
+    "().md",
+    "www.baidu.com.md",
+    "jmeter压测用户时序.pdf",
+    "jmeter详细设计.pdf",
+    "工程/压测/jmeter压测.assets/jmeter详细设计.pdf",
+    "工程/压测/jmeter压测.assets",
+    "工程/压测/k8s版本技术方案.assets/未命名",
+    "未命名",
+    "工程/压测/k8s版本技术方案.assets/中止任务.png",
+    "工程/压测/k8s版本技术方案.assets/jmeter详细设计.pdf",
+    "README.md",
+    "工程/压测/k8s版本技术方案.assets/image-20240923154721712.png",
+    "工程/压测/k8s版本技术方案.assets/image-20240923154823518.png",
+    "工程/压测/k8s版本技术方案.assets/image-20240910182851012.png",
+    "工程/压测/k8s版本技术方案.assets/image-20240910174257482.png",
+    "工程/压测/k8s版本技术方案.assets/image-20240910173017725.png",
+    "工程/压测/k8s版本技术方案.assets/image-20240910172640188.png",
+    "工程/压测/k8s版本技术方案.assets/作业任务.png",
+    "工程/压测/k8s版本技术方案.assets/诊断日志-1726648347785-5.png",
+    "工程/压测/k8s版本技术方案.assets/诊断日志.png",
+    "工程/未命名.md",
+    "checklist.qa.com.md",
+    "2024-03-04.md",
+    "2024-03-01.md",
+    "未命名.canvas",
+    "[.md",
+    "工程/python/Flask-APScheduler定时任务与坑点解决方法.md",
+    "meta/测试/未命名.md",
+    "meta/测试/欢迎.md",
+    "未命名.md"
+  ]
+}
