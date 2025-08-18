@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "07aea3a684083d3f",
+        "id": "e4f9e84b8762246d",
         "type": "tabs",
         "children": [
           {
-            "id": "cc156f9795129d0a",
+            "id": "3ce7242e0d63b473",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "api/根据项目ID查询版本列表需求.md",
+                "file": "工程/项目管理/Wiki-Next.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 494.5
+    "width": 333.5
   },
   "right": {
     "id": "7787cd4a05b176ab",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "api/根据项目ID查询版本列表需求.md",
+                "file": "工程/项目管理/Wiki-Next.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "api/根据项目ID查询版本列表需求.md",
+                "file": "工程/项目管理/Wiki-Next.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "api/根据项目ID查询版本列表需求.md"
+                "file": "工程/项目管理/Wiki-Next.md"
               }
             }
           }
@@ -147,51 +147,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cc156f9795129d0a",
+  "active": "3ce7242e0d63b473",
   "lastOpenFiles": [
+    "Pasted image 20250807173559.png",
+    "Pasted image 20250807172140.png",
+    "Pasted image 20250807172059.png",
+    "工程/需求分析/质量大盘数据统计兼容小亮接口.md",
+    "工程/项目管理/Wiki-Next.md",
+    "工程/项目管理/还在词不达意？我竟然靠AI把工作效率提升了300%？.md",
+    "工程/项目管理/未命名.md",
+    "工程/go/质量大盘性能优化.md",
+    "工程/go/质量大盘性能优化.pdf",
+    "工程/go/Golang高效跳坑.md",
+    "工程/go/Golang高效跳坑.pdf",
+    "工程/go/img.png",
+    "Pasted image 20250429155142.png",
+    "Pasted image 20250429155059.png",
+    "Pasted image 20250429154121.png",
+    "Pasted image 20250427170415.png",
+    "Pasted image 20250427170243.png",
+    "Pasted image 20250427152816.png",
+    "工程/go/复盘报告协同方案mysql.md",
+    "工程/go/复盘报告协同方案.md",
+    "Pasted image 20250415180719.png",
+    "工程/未命名.md",
+    "工程/需求分析",
+    "工程/go/重构创建编辑报告流程mysql.drawio.crswap",
+    "工程/go/重构创建编辑报告流程mysql.drawio",
+    "工程/go/重构创建编辑报告流程drawio.crswap",
+    "工程/go/复盘报告协同方案 - 副本.md",
+    "工程/go/重构创建编辑报告流程drawio",
+    "工程/go/创建编辑报告流程 - 副本.drawio",
+    "工程/go/Jmeter分布式压测.md",
     "工程/go/多人协同编辑.md",
-    "api/根据项目ID查询版本列表需求.md",
-    "工程/项目管理/项目立项书.docx",
-    "工程/项目管理",
-    "工程/新建文件夹",
-    "工程/压测/k8s版本技术方案.md",
+    "工程/go/创建编辑报告流程.drawio.crswap",
+    "工程/go/创建编辑报告流程.drawio",
     "工程/压测/jmeter压测动态参数集成分享版.md",
     "工程/压测/jmeter压测动态参数集成.md",
-    "工程/压测/backendListener.png",
-    "工程/压测/复杂的传统分布式压测配置.png",
-    "工程/go/Jmeter分布式压测.md",
+    "api/根据项目ID查询版本列表需求.md",
+    "工程/压测/k8s版本技术方案.md",
     "工程/go/协同编辑方案.md",
-    "meta/Checklist.pdf",
-    "checklist.png",
     "工程/python/Checklist.md",
     "工程/python/Flask-APScheduler定时任务与坑点解决方法.md",
     "工程/python/任务通知.md",
-    "meta/jmeter压测动态参数集成分享版.pdf",
-    "工程/压测/jmeter压测.assets/压测平台jmeter测试报告.png",
-    "Pasted image 20241214171215.png",
     "工程/数据库/mysql flask sqlalchemy.md",
-    "meta/jmeter压测动态参数集成.pdf",
-    "工程/go/Golang高效跳坑.pdf",
-    "工程/go/Golang高效跳坑.md",
-    "工程/压测/jmeter压测.assets/jmeter压测用户时序.pdf",
     "().md",
     "www.baidu.com.md",
-    "jmeter压测用户时序.pdf",
-    "jmeter详细设计.pdf",
-    "工程/压测/k8s版本技术方案.assets/中止任务.png",
     "README.md",
-    "工程/压测/k8s版本技术方案.assets/image-20240923154721712.png",
-    "工程/压测/k8s版本技术方案.assets/image-20240923154823518.png",
-    "工程/压测/k8s版本技术方案.assets/image-20240910182851012.png",
-    "工程/压测/k8s版本技术方案.assets/image-20240910174257482.png",
-    "工程/未命名.md",
     "checklist.qa.com.md",
-    "2024-03-04.md",
-    "2024-03-01.md",
-    "未命名.canvas",
-    "[.md",
-    "meta/测试/未命名.md",
-    "meta/测试/欢迎.md",
-    "未命名.md"
+    "未命名.canvas"
   ]
 }
